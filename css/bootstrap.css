@@ -4314,7 +4314,10 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #00b4f1 !important; }
+  background-color: #00b4f1 !important;
+  background-image: url('../img/banner.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat; }
 
 a.bg-primary:focus, a.bg-primary:hover {
   background-color: #0062cc !important; }
@@ -5331,6 +5334,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 .mx-5 {
   margin-left: 3rem !important; }
 
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
 .p-0 {
   padding: 0 !important; }
 
@@ -5436,6 +5443,10 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .pt-6 {
   padding-bottom: 3rem !important;
+}
+
+.pt-7 {
+  padding: 3.5rem !important;
 }
 
 .pr-5,
@@ -6381,6 +6392,41 @@ body {
   height: 100vh;
   min-height: 600px; }
 
+h2.heading {
+  font-size: 55px;
+}
+
+p.heading {
+  font-size: 35px;
+}
+
+p.heading1 {
+  font-size: 20px;
+}
+
+
+/*Responsive 425*/
+@media only screen and (max-width: 425px) {
+
+   h2.heading {
+  font-size: 42px;
+}
+
+p.heading {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.pt-7 {
+    padding: 0.5rem !important;
+}
+
+}
+
+
 a {
   color: rgba(255, 255, 255, 0.55);
   border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
@@ -6401,7 +6447,7 @@ section {
   padding: 60px 0px; }
 
 section .inner {
-  padding: 4em 4em 2em 4em; }
+  padding: 2em 2em 2em; }
 
 @media (min-width: 576px) {
   .col-fixed {
@@ -6445,9 +6491,7 @@ section .inner {
 .bg-faded {
   background-color: #D9EDF7; }
 
-.bg-primary { 
-  background-image: url('../img/banner.jpg');
-  background-position: left; 
+.bg-primary {  
   background-color: #00b4f1 !important; }
 
 .bg-primary-light {
@@ -6464,6 +6508,7 @@ section .inner {
 .bg-style2 {
   background-image: url('../img/banner2.jpg');
   background-position: bottom left;
+  background-repeat: no-repeat;
   background-color: #3bcdff; }
 
 .bg-style3 {
