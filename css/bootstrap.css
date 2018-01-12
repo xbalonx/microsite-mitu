@@ -4316,7 +4316,7 @@ button.close {
 .bg-primary {
   background-color: #00b4f1 !important;
   background-image: url('../img/banner.jpg');
-  background-position: bottom right;
+  background-position: left;
   background-repeat: no-repeat; }
 
 a.bg-primary:focus, a.bg-primary:hover {
@@ -6393,11 +6393,11 @@ body {
   min-height: 600px; }
 
 h2.heading {
-  font-size: 55px;
+  font-size: 48px;
 }
 
 p.heading {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 p.heading1 {
@@ -6512,6 +6512,17 @@ section .inner {
   background-color: #3bcdff; }
 
 .bg-style3 {
+  background-color: #3bcdff; }
+
+.bg-cloud {
+  background-image: url('../img/cloud.png');
+  background-repeat: no-repeat;
+}
+
+.bg-style4 {
+  background-image: url('../img/banner3.jpg');
+  background-position: bottom left;
+  background-repeat: no-repeat;
   background-color: #3bcdff; }
 
 /*===============================================
