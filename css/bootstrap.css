@@ -5446,7 +5446,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .pt-7 {
-  padding: 3.5rem !important;
+  padding-top: 1.5rem !important;
 }
 
 .pr-5,
@@ -6413,7 +6413,11 @@ p.heading1 {
 }
 
 p.heading {
-  font-size: 20px;
+  font-size: 14px;
+}
+
+p.heading1 {
+  font-size: 14px;
 }
 
 h2 {
